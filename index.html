@@ -223,6 +223,37 @@
         }
       }
 
+      @media screen and (min-width: 760px) and (max-width: 1070px) {
+        .ti-container {
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          gap: 60px;
+          height: auto;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          padding: 0 10px;
+        }
+
+        .img {
+          order: 1;
+          height: 280px;
+          width: 280px;
+          margin: 0;
+          flex-shrink: 0;
+        }
+
+        .terminal {
+          font-size: 20px;
+          width: 420px;
+          flex-shrink: 0;
+        }
+        .terminal p{
+          font-size: 20px;
+          padding: 6px;
+        }
+      }
+
       @media screen and (max-width: 480px) {
         #main-heading {
           font-size: 3.5rem;
